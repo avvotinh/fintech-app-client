@@ -67,7 +67,8 @@
             "browserTarget": "fintech-app-client:build",
             "customWebpackConfig": {
               "path": "./webpack.config.js"
-            }
+            },
+            "proxyConfig": "src/proxy.config.json"
           },
           "configurations": {
             "production": {
